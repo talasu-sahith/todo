@@ -58,9 +58,19 @@ function App() {
           <Card key={index} margin="4" border="solid">
             <Flex>
               <CardBody>
-                <Text>{parArr.task}</Text>
+                <Text type="hidden">{parArr.task}</Text>
               </CardBody>
-
+              <Button
+                colorScheme="red"
+                margin="2"
+                fontSize="22"
+                onClick={() => {
+                  handledel(parArr.id);
+                  setInp(parArr.task);
+                }}
+              >
+                Edit
+              </Button>
               <Button
                 colorScheme="red"
                 margin="2"
