@@ -11,6 +11,7 @@ import { nanoid } from "nanoid";
 import { MdDeleteForever } from "react-icons/md";
 import { FaRegCheckCircle } from "react-icons/fa";
 import { FaCircleCheck } from "react-icons/fa6";
+import Post from "./components/Posts";
 
 function App() {
   const [inp, setInp] = useState("");
@@ -40,7 +41,7 @@ function App() {
 
   return (
     <div>
-      <h1>React</h1>
+      {/*<h1>React</h1>
       <Container>
         <Heading textAlign="center">Todo</Heading>
         <form onSubmit={handleAdd}>
@@ -102,7 +103,7 @@ function App() {
           //       onClick={() => handledel(parArr.id)}
           //     />
 
-          //     {/* <FaRegCheckCircle onClick={() => IsCompleted(parArr.id)} /> */}
+          //     { <FaRegCheckCircle onClick={() => IsCompleted(parArr.id)} /> }
 
           //     {parArr.check === false ? (
           //       <FaRegCheckCircle
@@ -119,11 +120,12 @@ function App() {
           //       onClick={() => handledel(parArr.id)}
           //     >
           //       Delete
-          //     </Button> */}
+          //     </Button> 
           //   </Flex>
           // </Card>
         ))}
-      </Container>
+      </Container>*/}
+      <Post />
     </div>
   );
 }
