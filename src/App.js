@@ -1,8 +1,12 @@
-import { Input } from "@chakra-ui/react";
-import { useRef, useState, useEffect } from "react";
-import UseRef2 from "./components/UseRef2";
-import Counter from "./components/Counter";
-import { Button, ButtonGroup } from "@chakra-ui/react";
+// import { Input } from "@chakra-ui/react";
+// import { useRef, useState, useEffect } from "react";
+// import UseRef2 from "./components/UseRef2";
+// import { Button, ButtonGroup } from "@chakra-ui/react";
+// import Reducer from "./components/Reducer";
+// import Stopwatch from "./components/Stopwatch";
+
+// import Tictactoe from "./components/Tictactoe";
+import Tictac1 from "./components/Tictac1";
 
 const App = () => {
   // const inputRef = useRef(null);
@@ -26,7 +30,10 @@ const App = () => {
       {/* <input ref={inputRef} type="text" id="message" name="message" />
       <button onClick={handleClick}>Log message</button> */}
       {/* <UseRef2 /> */}
-      <Counter />
+      {/* <Reducer /> */}
+      {/* <Stopwatch /> */}
+      {/* <Tictactoe /> */}
+      <Tictac1 />
     </div>
   );
 };
